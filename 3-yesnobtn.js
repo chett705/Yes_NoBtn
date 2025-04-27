@@ -11,4 +11,16 @@ btnNo.onmousemove= ()=>{
 
     btnNo.style.left =`${random}px` ;
     btnNo.style.top =`${randomh}px` ;
+  
 }
+// --------------------add form ----------------------------
+btnyes.addEventListener('click', function(){
+    const form =document.getElementById("form");
+    form.style.display = 'block';
+    
+
+  });
+  const btn =document.getElementById("btn_ok");
+  btn.addEventListener('click',function(){
+    alert('b sl o ng kon');
+  })
